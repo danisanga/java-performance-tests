@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id "me.champeau.jmh" version "0.6.8"
+}
+
+group 'org.danisanga'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    jmh 'org.openjdk.jmh:jmh-core:0.9'
+    jmh 'org.openjdk.jmh:jmh-generator-annprocess:0.9'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jmh {
+    warmupIterations = 2
+    iterations = 5
+    fork = 1
+    benchmarkMode = ['AverageTime']
+    timeUnit = 'ns'
+    resultFormat = 'TEXT'
+}
