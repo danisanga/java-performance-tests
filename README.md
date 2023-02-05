@@ -10,8 +10,8 @@ Little project with educational purposes to test the performance of different al
 - **Binary Search**
     - ****Iterative Implementation****
     - ****Recursive Implementation****
-    - *****Arrays.binarySearch()* Implementation**
-    - *****Collections.binarySearch()* Implementation**
+    - **Arrays.binarySearch() Implementation**
+    - **Collections.binarySearch() Implementation**
 
 ---
 
