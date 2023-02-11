@@ -3,9 +3,15 @@ package org.danisanga.algorithm.data;
 import java.util.Arrays;
 import java.util.List;
 
+@SuppressWarnings("java:S2386")
 public class BenchmarkDataSet {
 
+    private BenchmarkDataSet() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static final int[] sortedArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 21, 23, 30, 45, 90, 100 };
+    public static final int[] unsortedArray = { 5, 3, 4, 1, 2 };
     public static final int[] sortedGiantArray = {
             1, 2, 3, 4, 5, 6, 7, 8, 9,
             10, 11, 12, 13, 14, 15, 16, 17, 18, 19,

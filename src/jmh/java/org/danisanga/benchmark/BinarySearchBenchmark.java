@@ -1,7 +1,7 @@
 package org.danisanga.benchmark;
 
 import org.danisanga.BenchmarkRunner;
-import org.danisanga.algorithm.BinarySearch;
+import org.danisanga.algorithm.searching.BinarySearch;
 import org.danisanga.algorithm.data.BenchmarkDataSet;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.Scope;

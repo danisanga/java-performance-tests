@@ -1,4 +1,4 @@
-package org.danisanga.algorithm;
+package org.danisanga.algorithm.searching;
 
 public class LinearSearch {
 

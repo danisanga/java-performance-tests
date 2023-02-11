@@ -1,5 +1,6 @@
-package org.danisanga.algorithm;
+package org.danisanga.algorithm.searching;
 
+import org.danisanga.algorithm.searching.BinarySearch;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

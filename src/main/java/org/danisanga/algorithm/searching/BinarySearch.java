@@ -1,4 +1,4 @@
-package org.danisanga.algorithm;
+package org.danisanga.algorithm.searching;
 
 import java.util.Arrays;
 import java.util.Collections;
