@@ -12,7 +12,7 @@ Little project with educational purposes to test the performance of different al
     - ****Recursive Implementation****
     - **Arrays.binarySearch() Implementation**
     - **Collections.binarySearch() Implementation**
-
+- **Bubble Sort**
 ---
 
 ### How it works
