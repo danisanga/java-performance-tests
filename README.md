@@ -13,6 +13,8 @@ Little project with educational purposes to test the performance of different al
     - **Arrays.binarySearch() Implementation**
     - **Collections.binarySearch() Implementation**
 - **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
 ---
 
 ### How it works
